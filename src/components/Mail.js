@@ -9,10 +9,10 @@ const Mail = () => {
 
     emailjs
       .sendForm(
-        "service_03yqgy3",
-        "template_tne7n74",
+        "serv*****vbfg54yqgy3",
+        "template***n74",
         form.current,
-        "wCaOnG_qZRsZa0Z3i"
+        "wCaOnG_qZR$$$i"
       )
       .then(
         (result) => {
@@ -26,8 +26,8 @@ const Mail = () => {
   };
 
   return (
-    <div className="bg-[#007b7e] w-full h-full py-10">
-      <h1 className="text-4xl font-bold text-center p-3 text-white ">
+    <div className=" py-10">
+      <h1 className=" p-3 text-white ">
         {" "}
         Send Me Message{" "}
       </h1>
