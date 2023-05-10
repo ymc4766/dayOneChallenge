@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div
       className="w-full min-h-[50px]  flex  justify-between items-center text-white
-     bg-slate-500/80 absulate  z-10"
+   e  z-10"
     >
       {/* <div> */}
       <ul className="hidden sm:flex px-5">
@@ -44,9 +44,9 @@ const Navbar = () => {
       {/* // Mobille Menu  */}
       <div
         className={
-          nav
-            ? "overflow-y-hidden md:hidden  ease-in duration-300 absolute  h-screen bg-black/90 w-full   text-gray left-0 top-0"
-            : "absolute top-0 h-screen left-[-100%] ease-in duration-550"
+  
+  "ation-300 absolute  h-screen bg-black/90 w-full   text-gray left-0 top-0"
+*******
         }
       >
         <ul className="w-full h-full text-center pt-12">
